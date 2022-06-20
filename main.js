@@ -25,7 +25,7 @@ function draw()
         document.getElementById("status").innerHTML="status : object Detected";
         fill("#FF0000");
         percent=floor(objects[i].confidence*100);
-        text(objects[i].label + " " + percent + "%", objects[i].x,objects[i].y);
+        text(objects[i].label + " " + percent + "%", objects[i].x+15,objects[i].y+15);
         noFill();
         stroke("#FF0000");
         rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
