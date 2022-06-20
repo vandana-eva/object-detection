@@ -1,0 +1,27 @@
+
+.heading
+{
+font-size: 32px;
+width: 100%;
+margin: 0px;
+font-family: fantasy;
+color: rgb(255, 233, 205);
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body
+{
+background-size: cover;
+background-position: center;
+}
+
+canvas
+{
+  border: dotted;
+  border-color: rgb(198, 111, 5);  
+  border-radius: 15px;
+}
